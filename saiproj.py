@@ -11,7 +11,7 @@ if a==1:
     print(k)
 if a==2:
     d = input("Please Enter the encrypted code to display the message : \n")
-    x = int(input("Please Enter the type of security received from the encryptor : \n"))
+    x = int(input("Please Enter the type of security received from the encryptor(Sender Side) : \n"))
     l=d
     for h in range(97-x,123-x):
         l=l.replace(chr(h),chr(h+x))
